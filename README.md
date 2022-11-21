@@ -1,4 +1,4 @@
-# Amazon API Gateway to AWS Lambda to Amazon DynamoDB
+# Tracepharm API - Serverless
 
 This pattern explains how to deploy a SAM application with Amazon API Gateway, AWS Lambda, and Amazon DynamoDB. When an HTTP POST request is made to the Amazon API Gateway endpoint, the AWS Lambda function is invoked and inserts an item into the Amazon DynamoDB table.
 

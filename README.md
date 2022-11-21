@@ -15,13 +15,9 @@ Important: this application uses various AWS services and there are costs associ
 
 ## Deployment Instructions
 
-1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
-    ``` 
-    git clone https://github.com/aws-samples/serverless-patterns
-    ```
 1. Change directory to the pattern directory:
     ```
-    cd apigw-lambda-dynamodb
+    cd tpapi
     ```
 1. From the command line, use AWS SAM to deploy the AWS resources for the pattern as specified in the template.yml file:
     ```
@@ -56,7 +52,4 @@ Using the Amazon API Gateway console, select the API, Resources, and POST method
     ```bash
     aws cloudformation list-stacks --query "StackSummaries[?contains(StackName,'STACK_NAME')].StackStatus"
     ```
-----
-Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
-SPDX-License-Identifier: MIT-0
